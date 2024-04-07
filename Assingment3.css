@@ -1,0 +1,252 @@
+
+
+.container-for-head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(139, 227, 179); 
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    transition: background-color 0.3s ease; 
+}
+
+#navigation-bar a {
+    color: black; 
+    text-decoration: none;
+    font-size: 1.7em;
+    display: inline-block;
+    text-align: right;
+    padding: 0px 10px;
+    margin-right: 80px;
+}
+
+#navigation-bar a:hnavbarHeadings {
+    font-size: 1.7em;
+    color: rgb(207, 85, 85);
+    cursor: pointer;
+}
+
+p{
+    color: black;
+    font-size: x-large;
+    width: 100%;
+}
+
+#navigation-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navigation-bar .box {
+    display: flex;
+    margin-left: 10px;
+}
+
+#header-1 a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+
+.section-for-content {
+    margin-top: 80px;
+}
+
+body {
+    background-color: rgb(139, 227, 179);
+    margin: 150px;
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+}
+
+#home-h4 {
+    font-size: 2em;
+    margin-top: -4px;
+    color: white;
+}
+
+#head-h1 {
+    color: black;
+}
+
+#navbarHeadings {
+    color: white;
+    font-size: 2.7em;
+}
+
+.service {
+    margin-bottom: 50px;
+}
+
+.service h3 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.service form {
+    margin-top: 20px;
+}
+
+.service form label {
+    color: white;
+}
+
+.service form input[type="text"],
+.service form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.service form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    margin: 8px 4px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    display: inline-block;
+}
+
+.service form button:hnavbarHeadings {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+    .container-for-head {
+        padding: 10px 10px;
+    }
+    
+    #navigation-bar a {
+        font-size: 1.2em;
+    }
+    
+    .section-for-content {
+        margin-top: 50px;
+    }
+
+    #header-1 {
+        font-size: 1em;
+    }
+
+    #navbarHeadings {
+        font-size: 1.5em;
+        margin-left: -75px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin-left: -75px;
+    }
+
+    p {
+        font-size: medium;
+        width: 100%;
+        margin-left: -75px;
+    }
+
+    .service h3 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .container-for-head {
+        padding: 10px 20px;
+    }
+
+    #navigation-bar a {
+        font-size: 1.5em;
+        
+    }
+    
+    .section-for-content {
+        margin-top: 70px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: large;
+    }
+
+    .service h3 {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .container-for-head {
+        padding: 15px 20px;
+    }
+
+    #navigation-bar a {
+        font-size: 1.7em;
+    }
+
+    .section-for-content {
+        margin-top: 100px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: x-large;
+    }
+
+    .service h3 {
+        font-size: 1.5em;
+    }
+}
+
+.services-form {
+    display: none;
+}
+
+.service .form-togggle-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px; 
+    margin: 8px auto;
+    border: none;
+    cursor: pointer;
+    width: auto; 
+    display: inline-block;
+}
+
+.service .form-togggle-btn:hnavbarHeadings {
+    background-color: #45a049;
+}
+
+.color-scheme-1 {
+    background-color: #f0f0f0; 
+    color: #333; 
+}
+
+.color-scheme-2 {
+    background-color: #fff3e0; 
+    color: #663300;
+}
+#email{
+    text-decoration:none ;
+    color: black;
+    font-size: 1.5em;
+}#navigation-bar a:hover{
+    color: rgb(63, 73, 205);
+}

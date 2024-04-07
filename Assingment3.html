@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT-3 MAINPAGE!</title>
+    <link rel="stylesheet" href="Assingment3.css">
+    <script src="Assingment3.js"></script>
+</head>
+
+<body id="image" onload="setDateToMin()">
+    <div class="container-for-head">
+        <h1 id="header-1"><a href="#home">Sahil Chowdary</a></h1>
+        <div id="navigation-bar">
+            <div class="box" id="box3"><a href="#about">About me</a></div>
+            <div class="box" id="box4"><a href="#services">Services</a></div>
+            <div class="box" id="box5"><a href="#contact">Contact</a></div>
+        </div>
+        </div>
+    </div>
+    
+    <div id="about" class="section-for-content">
+        <h2 id="navbarHeadings">About Me</h2>
+        <p>I'm a passionate advocate for the fusion of technology and business. My journey is fueled by a profound interest in exploring the intersection of these fields, leveraging coding as my instrument for innovation and transformation. As I embark on my coding odyssey, I'm eager to share my progress and projects with you through this platform. This website serves as a dynamic canvas to showcase my evolving skills, projects, and insights as I navigate the landscapes of computer science and entrepreneurship.</p>
+    </div>
+    
+    <div id="services" class="section-for-content">
+        <h2 id="navbarHeadings">Services</h2>
+        <div class="service">
+            <h3>[1] Cleaning Services</h3>
+            <p>We provide cleaning services with an overall package to cater to the cleanliness and systematic organization at your home. Right from the regular maid service to the deep-cleaning session, every nook and corner of your space will be spick and span. All of our services come to you with eco-friendly cleaning products and the latestjson_latest: "All of our services come with eco-friendly cleaning products and the latest technology in equipment. Be it a one-time clean-up requirement or regular maintenance, our team will leave no stone unturned in exceeding your expectations by making sure your living space remains healthy for you and your family.
+            </p>
+            <button class="form-togggle-btn" onclick="togggleForm('form-for-cleaning')">Fill the Form</button>
+            <form class="services-form" id="form-for-cleaning" style="display: none;" onsubmit="return formValidation('form-for-cleaning')">
+                <label for="cleaning-fname">First Name:</label><br>
+                <input type="text" id="cleaning-fname" name="fname" required><br>
+                <label for="cleaning-lname">Last Name:</label><br>
+                <input type="text" id="cleaning-lname" name="lname" required><br>
+                <label for="cleaning-email">email:</label><br>
+                <input type="email" id="cleaning-email" name="email" required><br>
+                <label for="cleaning-description">Description:</label><br>
+                <input type="text" id="cleaning-description" name="description" required><br>
+                <label for="cleaning-date">Date of service required:</label><br>
+                <input type="date" id="cleaning-date" name="date" required><br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Redo</button>
+                <div id="cleaning-unfuctional" class="unfuctional"></div>
+            </form>
+        </div>
+        
+        <div class="service">
+            <h3>[2] Landscaping and Lawn Care</h3>
+            <p>We offer creative services designed for the beauty and function of your outdoors in our landscaping and lawn care. We provide you with our creative approach and expertise in order to design striking landscapes and take care of your lush green lawns for every project. Whether it's simple regular mowing of the lawn, basic garden maintenance, or a landscape design and installation project, we stay in commitment toward quality service that rises above your expectations. Allow us to turn your outdoor living space into an inviting oasis that evokes relaxation and rejuvenation.
+            </p>
+            <button class="form-togggle-btn" onclick="togggleForm('form-for-landscaping')">Fill the Form</button>
+            <form class="services-form" id="form-for-landscaping" style="display: none;" onsubmit="return formValidation('form-for-cleaning')">
+                <label for="cleaning-fname">First Name:</label><br>
+                <input type="text" id="cleaning-fname" name="fname" required><br>
+                <label for="cleaning-lname">Last Name:</label><br>
+                <input type="text" id="cleaning-lname" name="lname" required><br>
+                <label for="cleaning-email">email:</label><br>
+                <input type="email" id="cleaning-email" name="email" required><br>
+                <label for="cleaning-description">Description:</label><br>
+                <input type="text" id="cleaning-description" name="description" required><br>
+                <label for="cleaning-date">Date of service required:</label><br>
+                <input type="date" id="cleaning-date" name="date" required><br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Redo</button>
+                <div id="cleaning-unfuctional" class="unfuctional"></div>
+            </form>
+        </div>
+
+        <div class="service">
+            <h3>[3] Handyman Services</h3>
+            <p>We offer unbeatable solutions to all your home repair and maintenance. From repairing a leaking faucet to working on an electrical issue, our experienced and skilled technicians see to it that they bring versatility into practice to fix varieties of chores promptly and accurately. Be it for a little fixing or a larger full refurbishment, quality is ensured with an eye for service. Let us take care of your home repair needs so you can enjoy peace of mind knowing your property is in good hands.</p>
+            <button class="form-togggle-btn" onclick="togggleForm('form-for-handyman')">Fill the Form</button>
+            <form class="services-form" id="form-for-handyman" style="display: none;" onsubmit="return formValidation('form-for-cleaning')">
+                <label for="cleaning-fname">First Name:</label><br>
+                <input type="text" id="cleaning-fname" name="fname" required><br>
+                <label for="cleaning-lname">Last Name:</label><br>
+                <input type="text" id="cleaning-lname" name="lname" required><br>
+                <label for="cleaning-email">email:</label><br>
+                <input type="email" id="cleaning-email" name="email" required><br>
+                <label for="cleaning-description">Description:</label><br>
+                <input type="text" id="cleaning-description" name="description" required><br>
+                <label for="cleaning-date">Date of service required:</label><br>
+                <input type="date" id="cleaning-date" name="date" required><br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Redo</button>
+                <div id="cleaning-unfuctional" class="unfuctional"></div>
+            </form>
+        </div>
+        
+    </div>
+    
+    <div id="contact" class="section-for-content">
+        <h2 id="navbarHeadings">Contact</h2>
+        <p>You can reach me via email: <a id ="email"   href="mailto:sh814514@dal.ca">sh814514@dal.ca</a></p>
+    </div>
+    
+    
+    
+
+    <div>
+        <button onclick="backgroundColorChange()">Next Background Color</button>
+        <button onclick="backgroundColorReset()">Reset</button>
+    </div>
+
+    
+</body>
+</html>
